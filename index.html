@@ -12,7 +12,7 @@
             font-family: 'Sarabun', sans-serif;
             scroll-behavior: smooth;
             margin: 0;
-            background-image: url('sea.jpg');
+            background-image: url('Sea2.jpg'); 
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
@@ -34,6 +34,7 @@
         .card-custom {
             height: 100%;
             transition: transform 0.2s;
+            background-color: rgba(255, 255, 255, 0.85);
         }
 
         .card-custom:hover {
@@ -44,6 +45,10 @@
             background-color: #343a40;
             color: white;
             padding: 20px 0;
+        }
+
+        .list-group-item {
+            background-color: rgba(255, 255, 255, 0.9);
         }
     </style>
 </head>
@@ -67,8 +72,8 @@
         </div>
     </nav>
 
-    <section id="about" class="section-padding bg-light text-center">
-        <div class="container">
+    <section id="about" class="section-padding text-center">
+        <div class="container p-4 rounded-3" style="background-color: rgba(255, 255, 255, 0.85);">
             <img src="profile.jpg" alt="Profile Picture" class="profile-img mb-3">
             <h1 class="fw-bold mb-2">นายเอกรินทร์ อ่อนนา</h1>
             <p class="text-muted"><em>สาขาวิชาเทคโนโลยีดิจิทัลและสารสนเทศ</em></p>
@@ -89,7 +94,7 @@
 
     <section id="education" class="section-padding">
         <div class="container">
-            <h2 class="text-center mb-5 fw-bold">การศึกษา (Education)</h2>
+            <h2 class="text-center mb-5 fw-bold text-white" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.6);">การศึกษา (Education)</h2>
             <div class="row g-4">
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="card card-custom shadow-sm p-3">
@@ -131,9 +136,9 @@
         </div>
     </section>
 
-    <section id="skills" class="section-padding bg-light">
+    <section id="skills" class="section-padding">
         <div class="container">
-            <h2 class="text-center mb-5 fw-bold">ทักษะ (Skills)</h2>
+            <h2 class="text-center mb-5 fw-bold text-white" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.6);">ทักษะ (Skills)</h2>
             <div class="row g-4">
                 <div class="col-12 col-md-6 col-lg-3">
                     <div class="card card-custom border-0 shadow-sm text-center p-3">
@@ -173,7 +178,7 @@
 
     <section id="contact" class="section-padding">
         <div class="container">
-            <h2 class="text-center mb-4 fw-bold">ช่องทางติดต่อ (Contact Me)</h2>
+            <h2 class="text-center mb-4 fw-bold text-white" style="text-shadow: 2px 2px 4px rgba(0,0,0,0.6);">ช่องทางติดต่อ (Contact Me)</h2>
             <div class="row justify-content-center">
                 <div class="col-md-8 col-lg-6">
                     <ol class="list-group list-group-numbered shadow-sm">
